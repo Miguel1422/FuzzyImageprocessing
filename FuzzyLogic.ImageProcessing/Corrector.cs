@@ -82,9 +82,9 @@ namespace FuzzyLogic.ImageProcessing
 
 
 
-            for (int i = 2; i < valueImage.GetLength(0) - 3; i++)
+            for (int i = 2; i < valueImage.GetLength(0) - 2; i++)
             {
-                for (int j = 3; j < valueImage.GetLength(1) - 3; j++)
+                for (int j = 2; j < valueImage.GetLength(1) - 2; j++)
                 {
 
                     var B = valueImage
